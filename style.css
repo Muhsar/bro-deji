@@ -15,7 +15,6 @@ body {
   text-align: center;
   visibility: hidden;
   position: relative;
-  overflow: hidden;
 }
 
 .container div.six {
@@ -123,10 +122,10 @@ body {
   display: inline-block;
   max-width: 100%;
   max-height: 60vh;
- transform: rotate(90deg);
+ transform: scale(.7);
  object-position: center;
  object-size: contain;
- object-fit: cover;
+ object-fit: contain;
 }
 
 .six .hat {
